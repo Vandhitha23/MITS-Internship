@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Internship Portal - MITS</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <nav class="bg-blue-700 text-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-center space-x-10">
+      <a href="#home" class="hover:text-blue-300 font-semibold">MITS Portal</a>
+      <a href="#apply" class="hover:text-blue-300 font-semibold">Internship Application</a>
+      <a href="#offer" class="hover:text-blue-300 font-semibold">Offer Letter</a>
+      <a href="#verify" class="hover:text-blue-300 font-semibold">Certificate Verification</a>
+      <a href="#join" class="hover:text-blue-300 font-semibold">Join Team</a>
+      <a href="#contact" class="hover:text-blue-300 font-semibold">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home" class="max-w-4xl mx-auto text-center px-6 py-12">
+    <h1 class="text-4xl font-bold text-blue-800 mb-4">Welcome to the MITS Internship Portal</h1>
+    <p class="text-lg text-gray-700">
+      Manage internship applications, generate offer letters, verify certificates, and explore joining our vibrant tech team.
+    </p>
+  </section>
+
+  <section id="apply" class="max-w-3xl mx-auto px-6 py-10 bg-white shadow rounded">
+    <h2 class="text-2xl font-semibold text-blue-800 mb-4">Apply for Internship</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Full Name" class="w-full p-3 border rounded" required />
+      <input type="email" placeholder="Email Address" class="w-full p-3 border rounded" required />
+      <input type="text" placeholder="University/College Name" class="w-full p-3 border rounded" required />
+      <select class="w-full p-3 border rounded" required>
+        <option disabled selected>Select your domain</option>
+        <option>Web Development</option>
+        <option>Machine Learning</option>
+        <option>UI/UX Design</option>
+        <option>Data Science</option>
+      </select>
+      <textarea placeholder="Why do you want to join?" class="w-full p-3 border rounded" rows="4"></textarea>
+      <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded">Submit</button>
+    </form>
+  </section>
+
+  <section id="offer" class="max-w-3xl mx-auto px-6 py-10 bg-gray-100 mt-10 shadow rounded">
+    <h2 class="text-2xl font-semibold text-blue-800 mb-4">Generate Offer Letter</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Your Full Name" class="w-full p-3 border rounded" required />
+      <input type="email" placeholder="Registered Email" class="w-full p-3 border rounded" required />
+      <input type="text" placeholder="Application ID" class="w-full p-3 border rounded" required />
+      <button class="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded">Generate</button>
+    </form>
+  </section>
+
+  <section id="verify" class="max-w-3xl mx-auto px-6 py-10 bg-white mt-10 shadow rounded">
+    <h2 class="text-2xl font-semibold text-blue-800 mb-4">Certificate Verification</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Certificate ID" class="w-full p-3 border rounded" required />
+      <input type="email" placeholder="Candidate Email" class="w-full p-3 border rounded" required />
+      <button class="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-6 rounded">Verify</button>
+    </form>
+  </section>
+
+  <section id="join" class="max-w-3xl mx-auto px-6 py-10 bg-gray-100 mt-10 shadow rounded">
+    <h2 class="text-2xl font-semibold text-blue-800 mb-4">Join Our Team</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 border rounded" required />
+      <input type="email" placeholder="Email Address" class="w-full p-3 border rounded" required />
+      <input type="text" placeholder="Role You Are Interested In" class="w-full p-3 border rounded" required />
+      <textarea placeholder="Tell us about yourself" class="w-full p-3 border rounded" rows="4"></textarea>
+      <button class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact" class="max-w-3xl mx-auto px-6 py-10 bg-white mt-10 shadow rounded">
+    <h2 class="text-2xl font-semibold text-blue-800 mb-4">Contact Us</h2>
+    <p class="mb-4 text-gray-700">📧 Email: <a href="mailto:info@mits.org" class="text-blue-600 underline">info@mits.org</a></p>
+    <p class="mb-4 text-gray-700">📞 Phone: +91 98765 43210</p>
+    <form class="space-y-4 mt-6">
+      <input type="text" placeholder="Your Name" class="w-full p-3 border rounded" required />
+      <input type="email" placeholder="Your Email" class="w-full p-3 border rounded" required />
+      <textarea placeholder="Your Message" class="w-full p-3 border rounded" rows="4" required></textarea>
+      <button class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 px-6 rounded">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="bg-blue-700 text-white py-6 mt-12 text-center">
+    © 2025 Micro Information Technology Services (MITS). All rights reserved.
+  </footer>
+
+</body>
+</html>
